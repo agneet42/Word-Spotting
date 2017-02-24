@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-image = cv2.imread('/home/agneetc/Documents/WordSpot/BTECH/01/word0001.bmp')
+image = cv2.imread('path')
 gray_image=cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 print(gray_image)
 print(gray_image.shape)
